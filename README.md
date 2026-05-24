@@ -1,60 +1,37 @@
-<<<<<<< HEAD
-DevProfile Backend — Setup Guide
+# DevProfile Backend 🚀
 
-Requirements
+DevProfile Backend is a smart Spring Boot application that analyzes developers’ CVs and GitHub profiles to generate insightful feedback about their skills, strengths, and weaknesses.
 
-1- Before running the project, install the following tools:
+Built to help developers better understand their profiles and improve their professional presence.
 
-Git
+---
 
-Java 21
+## ✨ Features
 
-Docker Desktop
+- CV & Resume Analysis
+- GitHub Profile Evaluation
+- AI-Powered Insights
+- Strength & Weakness Detection
+- PDF Resume Parsing
+- RESTful API Architecture
+- Clean Backend Structure
 
-Maven
+---
 
-**THESE ARE A MUST TO INSTALL TOOLS**
+## 🛠️ Tech Stack
 
-2- Clone the repository
+- Java
+- Spring Boot
+- Maven
+- REST APIs
+- GitHub API
+- PDF Processing
 
-git clone https://github.com/iMedoV8/DevProfileProject.git
+---
 
-cd DevProfileProject
+## ⚙️ Getting Started
 
-3- Start the database
+### Clone the repository
 
-The project uses PostgreSQL running inside Docker.
-
-Run:
-
-docker compose up -d
-
-This will start the PostgreSQL container.
-
-You can verify it is running with:
-
-docker ps
-
-You should see a container similar to:
-
-devprofileproject-db
-postgres:16
-
-4- Run the backend
-
-Start the Spring Boot application:
-
-mvn spring-boot:run
-
-or using the Maven wrapper:
-
-./mvnw spring-boot:run
-
-5- Access the API
-
-Once the server starts, the backend runs at:
-
-http://localhost:8086
-=======
-# DevProfile-Backend
->>>>>>> 826ef6d881f793cda1da033a4dc56138c190dae7
+```bash
+git clone https://github.com/omarramrr/DevProfile-Backend.git
